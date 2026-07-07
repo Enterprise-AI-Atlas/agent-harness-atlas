@@ -1,0 +1,56 @@
+# Glossary
+
+## Columns
+
+- **orchestration_model**: how the harness sequences agent work.
+  - `state-machine` — explicit states and transitions
+  - `dag` — directed acyclic graph of steps
+  - `event-driven` — agents react to events/messages
+  - `turn-based` — linear request/response turns
+  - `actor-based` — agents as independent actors
+  - `conversation-graph` — graph of conversation nodes
+  - `other`
+- **tool_integration**: how tools are exposed to agents.
+  - `native-tool-calling` — LLM-native function calling
+  - `mcp` — Model Context Protocol
+  - `a2a` — Agent-to-Agent protocol
+  - `custom-sdk` — framework-specific tool API
+  - `plugin-api` — generic plugin mechanism
+  - `none`
+- **memory_model**: how context/state persists.
+  - `conversation-only` — only in-context messages
+  - `persistent-state` — durable state across sessions
+  - `shared-memory` — memory shared across agents
+  - `vector-db` — retrieval-augmented memory
+  - `none`
+- **multi_agent_primitives**: built-in ways for multiple agents to coordinate.
+  - `messaging` — direct agent messages
+  - `hierarchy` — supervisor/worker relationships
+  - `roles` — role-based delegation
+  - `swarm` — many simple agents
+  - `handoffs` — explicit task transfer
+  - `none`
+- **human_in_the_loop**: built-in mechanisms for human intervention.
+  - `breakpoints` — pause before key steps
+  - `approvals` — require human approval for actions
+  - `feedback` — capture human corrections
+  - `none`
+- **observability**: built-in monitoring/telemetry.
+  - `tracing` — distributed/execution tracing
+  - `cost-tracking` — token/cost tracking
+  - `token-usage` — per-call token counts
+  - `logging` — structured logging
+  - `none`
+- **guardrails**: safety/limits.
+  - `sandboxing` — execution isolation
+  - `output-moderation` — content filtering
+  - `rate-limits` — request/throttling limits
+  - `turn-caps` — max execution turns
+  - `none`
+- **deployment_mode**: typical deployment shape.
+  - `library` — importable package
+  - `api-server` — self-hosted HTTP service
+  - `container` — packaged container image
+  - `cloud-hosted` — vendor-managed service
+  - `embedded` — IDE/editor plugin
+  - `other`
