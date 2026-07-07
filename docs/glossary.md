@@ -52,6 +52,7 @@
   - `none`
 - **deployment_mode**: typical deployment shape.
   - `library` — importable package
+  - `cli` — command-line application
   - `api-server` — self-hosted HTTP service
   - `container` — packaged container image
   - `cloud-hosted` — vendor-managed service

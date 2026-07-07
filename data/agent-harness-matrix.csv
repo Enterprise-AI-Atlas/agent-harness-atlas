@@ -52,7 +52,7 @@ e2b,E2B,Python+TypeScript,Apache-2.0,eval-harness,plugin-api,none,none,none,trac
 swe-agent,SWE-agent,Python,MIT,turn-based,plugin-api,conversation-only,none,none,logging,sandboxing,container,stable,Academic open-source coding agent
 devin-api,Cognition,Python,proprietary,turn-based,custom-sdk,persistent-state,hierarchy,breakpoints+approvals,tracing+token-usage,sandboxing,cloud-hosted,production-grade,Remote AI software engineer service
 openhands,All-Hands AI,Python,MIT,turn-based,plugin-api,conversation-only,none,approvals,tracing+logging,sandboxing,container,stable,Open-source devin-like coding agent
-composio,Composio,Python+TypeScript,Apache-2.0,plugin-api,custom-sdk+mcp,conversation-only,none,none,tracing+logging,none,library,stable,Tool integration framework for agents
+composio,Composio,Python+TypeScript,Apache-2.0,turn-based,custom-sdk+mcp,conversation-only,none,none,tracing+logging,none,library,stable,Tool integration framework for agents
 wordware,Wordware,TypeScript,proprietary,dag,custom-sdk,persistent-state,none,none,logging,rate-limits,cloud-hosted,stable,Prompt-as-Program agent IDE
 mastra,Mastra,TypeScript,Apache-2.0,state-machine,native-tool-calling+mcp,persistent-state,messaging+hierarchy,none,tracing+logging,none,library,stable,TypeScript AI agent framework
 rivet,Ironclad,TypeScript,MIT,dag,plugin-api,conversation-only,none,none,logging,none,library,stable,Visual AI agent IDE
