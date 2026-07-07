@@ -15,3 +15,59 @@ camunda-ai-agent,Camunda,Java,Apache-2.0,state-machine,native-tool-calling,persi
 temporal-agents,Temporal,TypeScript+Python,MIT,state-machine,plugin-api,persistent-state,none,none,tracing+logging,rate-limits,library,stable,Durable execution for agents
 swe-bench-harness,SWE-bench,Python,MIT,eval-harness,plugin-api,none,none,none,logging,sandboxing,container,stable,Evaluation harness for coding agents
 inspect-ai,UK AISI,Python,MIT,eval-harness,plugin-api,conversation-only,none,none,tracing+token-usage,sandboxing,library,stable,Structured LLM evaluation framework
+agno,Agno,Python,MIT,turn-based,native-tool-calling+mcp,conversation-only,none,none,tracing+token-usage,none,library,stable,Formerly Phidata; lightweight agent framework with memory and tool support
+llamaindex-workflows,LlamaIndex,Python+TypeScript,MIT,dag,native-tool-calling+mcp,persistent-state,messaging,none,tracing+logging,none,library,stable,Event-driven agentic workflows over LlamaIndex
+haystack-agents,deepset,Python,Apache-2.0,dag,native-tool-calling,conversation-only,none,none,logging,none,library,stable,Agent components within Haystack pipelines
+semantic-kernel,Microsoft,Python+C#+Java,MIT,turn-based,plugin-api,persistent-state,messaging+roles,none,tracing+token-usage,none,library,production-grade,Microsoft copilot orchestration SDK
+spring-ai,Spring,Java,Apache-2.0,turn-based,plugin-api,conversation-only,none,none,logging,none,library,stable,Spring ecosystem AI agents and advisors
+quarkus-langchain4j,Quarkus,Java,Apache-2.0,turn-based,native-tool-calling,conversation-only,none,none,logging,none,library,stable,Quarkus integration for LangChain4j agents
+dapr-agents,Dapr,Python+TypeScript,MIT,actor-based,plugin-api,persistent-state,messaging+hierarchy,none,tracing+logging,rate-limits,library,experimental,Microservice-based actors for multi-agent systems
+bee-agent-framework,IBM,Python+TypeScript,Apache-2.0,turn-based,native-tool-calling+mcp,conversation-only,none,none,tracing+logging,none,library,stable,IBM's agent framework with composable tools
+langroid,Langroid,Python,MIT,conversation-graph,native-tool-calling+mcp,conversation-only,messaging+hierarchy+roles,none,logging,none,library,stable,Multi-agent programming with typed messages
+controlflow,Prefect,Python,Apache-2.0,dag,native-tool-calling,persistent-state,hierarchy,none,tracing+logging,none,library,stable,Task-oriented agentic workflows from Prefect team
+arcade-ai,Arcade AI,Python,MIT,turn-based,custom-sdk,conversation-only,none,none,tracing,none,cloud-hosted,stable,Auth-aware tool platform for agents
+vercel-ai-sdk,Vercel,TypeScript,Apache-2.0,turn-based,native-tool-calling+mcp,conversation-only,none,none,tracing+token-usage,none,library,production-grade,Frontend/backend AI SDK with streaming tool calls
+agentkit,Coinbase,TypeScript+Python,Apache-2.0,turn-based,custom-sdk,conversation-only,none,none,logging,none,library,stable,Onchain agent tools and wallet actions
+memgpt,Letta,Python,Apache-2.0,turn-based,plugin-api,vector-db,none,none,logging,none,library,stable,Memory management for LLM agents
+letta,Letta,Python,Apache-2.0,turn-based,native-tool-calling+mcp,vector-db,messaging,none,tracing+token-usage,none,api-server,stable,Stateful agents with memory and REST API
+gpt-researcher,Assaf Elovic,Python,MIT,dag,native-tool-calling,vector-db,none,none,logging,none,library,stable,Autonomous research agent with web search
+metagpt,MetaGPT,Python,MIT,role-based,native-tool-calling,conversation-only,roles+hierarchy,none,logging,none,library,experimental,Multi-role software company simulation
+autogpt,AutoGPT,Python,MIT,event-driven,plugin-api,vector-db,messaging,none,logging,none,container,experimental,Self-prompting autonomous agent
+babyagi,Yohei Nakajima,Python,MIT,turn-based,native-tool-calling,vector-db,none,none,logging,none,library,experimental,Classic task-creation agent loop
+superagi,SuperAGI,Python,MIT,event-driven,plugin-api,persistent-state,messaging+hierarchy,approvals,tracing+logging,rate-limits,api-server,stable,Autonomous agent cloud platform
+taskweaver,Microsoft,Python,MIT,state-machine,plugin-api,persistent-state,none,none,logging,none,library,stable,Code-first data analytics agent
+openmanus,OpenManus,Python,MIT,turn-based,plugin-api,conversation-only,none,none,logging,none,library,experimental,Open-source Manus-like agent
+owl,Camel-AI,Python,Apache-2.0,role-based,native-tool-calling,conversation-only,roles+hierarchy,none,logging,none,library,experimental,Optimizing workforce learning in multi-agent collaboration
+camel,CAMEL,Python,Apache-2.0,role-based,native-tool-calling+mcp,conversation-only,roles+messaging,none,tracing+logging,none,library,stable,Communicative agents for mind exploration
+magentic-one,Microsoft Research,Python,MIT,hierarchy,native-tool-calling,conversation-only,hierarchy,none,tracing+logging,none,library,experimental,Generalist multi-agent autonomic system
+google-adk,Google,Python,Apache-2.0,turn-based,native-tool-calling+mcp+a2a,persistent-state,handoffs+messaging,approvals,tracing+token-usage,rate-limits,library,stable,Google Agent Development Kit
+praisonai,Praison,Python,MIT,role-based,native-tool-calling,conversation-only,roles+hierarchy,none,logging,none,library,stable,AutoGen + CrewAI alternative with YAML config
+n8n-ai-agent,n8n,TypeScript,Sustainable-Use,dag,plugin-api,persistent-state,none,approvals,logging,none,api-server,stable,Visual workflow agent node in n8n
+zapier-central,Zapier,Python+TypeScript,proprietary,dag,custom-sdk,persistent-state,none,approvals,logging,rate-limits,cloud-hosted,stable,Zapier AI automation platform
+relevance-ai,Relevance AI,Python+TypeScript,proprietary,dag,custom-sdk,persistent-state,roles,approvals,tracing+logging,rate-limits,cloud-hosted,stable,Enterprise AI workforce platform
+vectorshift,VectorShift,Python+TypeScript,proprietary,dag,custom-sdk,persistent-state,none,approvals,logging,rate-limits,cloud-hosted,stable,No-code agent pipelines and deployments
+griptape,Griptape,Python,Apache-2.0,dag,plugin-api,conversation-only,roles+hierarchy,none,tracing+logging,none,library,stable,Modular AI framework with offPrompt stages
+ellipsis,Ellipsis,TypeScript,proprietary,turn-based,plugin-api,conversation-only,none,approvals,logging,none,cloud-hosted,stable,Code review and PR agent
+e2b,E2B,Python+TypeScript,Apache-2.0,eval-harness,plugin-api,none,none,none,tracing+logging,sandboxing,container,stable,Sandboxed code execution for AI apps
+swe-agent,SWE-agent,Python,MIT,turn-based,plugin-api,conversation-only,none,none,logging,sandboxing,container,stable,Academic open-source coding agent
+devin-api,Cognition,Python,proprietary,turn-based,custom-sdk,persistent-state,hierarchy,breakpoints+approvals,tracing+token-usage,sandboxing,cloud-hosted,production-grade,Remote AI software engineer service
+openhands,All-Hands AI,Python,MIT,turn-based,plugin-api,conversation-only,none,approvals,tracing+logging,sandboxing,container,stable,Open-source devin-like coding agent
+composio,Composio,Python+TypeScript,Apache-2.0,plugin-api,custom-sdk+mcp,conversation-only,none,none,tracing+logging,none,library,stable,Tool integration framework for agents
+wordware,Wordware,TypeScript,proprietary,dag,custom-sdk,persistent-state,none,none,logging,rate-limits,cloud-hosted,stable,Prompt-as-Program agent IDE
+mastra,Mastra,TypeScript,Apache-2.0,state-machine,native-tool-calling+mcp,persistent-state,messaging+hierarchy,none,tracing+logging,none,library,stable,TypeScript AI agent framework
+rivet,Ironclad,TypeScript,MIT,dag,plugin-api,conversation-only,none,none,logging,none,library,stable,Visual AI agent IDE
+gumloop,Gumloop,TypeScript,proprietary,dag,custom-sdk,persistent-state,none,approvals,logging,rate-limits,cloud-hosted,stable,No-code AI automation platform
+continue,Continue,TypeScript,Apache-2.0,turn-based,plugin-api,conversation-only,none,approvals,logging,none,embedded,stable,Open-source AI code assistant for IDEs
+cody,Sourcegraph,TypeScript+Go,Apache-2.0,turn-based,plugin-api,vector-db,none,approvals,logging,none,embedded,stable,Sourcegraph AI coding assistant
+amazon-q-developer,Amazon,Java+Python,proprietary,turn-based,plugin-api,conversation-only,none,approvals,logging,none,embedded,stable,AWS IDE/agent coding assistant
+codeium-windsurf,Codeium,TypeScript,proprietary,turn-based,plugin-api,conversation-only,none,approvals,logging,none,embedded,stable,Agentic IDE with cascade flow
+github-copilot-agent,GitHub,TypeScript,proprietary,turn-based,plugin-api,conversation-only,none,approvals,logging,none,embedded,stable,Copilot agent mode in editors
+roo-cline,Roo Code,TypeScript,Apache-2.0,turn-based,plugin-api+mcp,conversation-only,none,approvals,logging,none,embedded,stable,Fork of Cline; agentic IDE extension
+cursor-composer,Cursor,TypeScript,proprietary,turn-based,plugin-api,conversation-only,none,approvals,logging,none,embedded,stable,Cursor agentic composer/agent mode
+tabnine-chat,Tabnine,TypeScript,proprietary,turn-based,plugin-api,conversation-only,none,none,logging,none,embedded,stable,Tabnine AI chat and agents
+agentboard,AgentBoard,Python,MIT,eval-harness,plugin-api,none,none,none,logging,sandboxing,container,experimental,Benchmark harness for decision-making agents
+mint,Mint,Python,MIT,eval-harness,plugin-api,conversation-only,none,none,tracing+token-usage,sandboxing,container,experimental,Benchmark for interaction in embodied environments
+gaia-harness,GAIA,Python,Apache-2.0,eval-harness,plugin-api,none,none,none,logging,sandboxing,container,stable,GAIA benchmark execution harness
+webarena-harness,WebArena,Python,MIT,eval-harness,plugin-api,none,none,none,logging,sandboxing,container,stable,Web agent benchmark harness
+osworld-harness,OSWorld,Python,Apache-2.0,eval-harness,plugin-api,none,none,none,logging,sandboxing,container,stable,OS-level agent benchmark harness
+toolbench-harness,ToolBench,Python,Apache-2.0,eval-harness,plugin-api,none,none,none,logging,sandboxing,container,stable,Tool-learning benchmark harness

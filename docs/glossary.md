@@ -9,6 +9,9 @@
   - `turn-based` — linear request/response turns
   - `actor-based` — agents as independent actors
   - `conversation-graph` — graph of conversation nodes
+  - `role-based` — roles drive task division and control flow
+  - `hierarchy` — supervisor/worker or layered control flow
+  - `eval-harness` — benchmark/evaluation runner rather than a production runtime
   - `other`
 - **tool_integration**: how tools are exposed to agents.
   - `native-tool-calling` — LLM-native function calling
