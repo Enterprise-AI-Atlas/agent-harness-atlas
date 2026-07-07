@@ -1,8 +1,8 @@
 # Agent Harness Atlas
 
-A vendor-neutral atlas that decomposes how 50–100 agent harnesses work.
+Every "agent framework" promises the same thing, but under the hood they make very different choices about memory, orchestration, guardrails, and how humans stay in the loop. This repo is an attempt to cut through the marketing and compare them directly.
 
-The core artifact is [`data/agent-harness-matrix.csv`](data/agent-harness-matrix.csv), a comparison matrix of **72** agent frameworks, coding runtimes, and related harnesses. Supporting prose in [`docs/`](docs/) explains what they share and where they diverge. [`frameworks/`](frameworks/) holds a one-page profile for each included harness.
+The main artifact is [`data/agent-harness-matrix.csv`](data/agent-harness-matrix.csv): a comparison of **72** agent frameworks, coding agents, orchestration layers, and evaluation harnesses. The [`docs/`](docs/) folder explains what most of them have in common and where they genuinely diverge. [`frameworks/`](frameworks/) has a short profile for every harness in the matrix.
 
 ## Quick links
 
