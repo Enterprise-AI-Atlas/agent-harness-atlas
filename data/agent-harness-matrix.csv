@@ -1,1 +1,17 @@
 name,org,primary_language,license,orchestration_model,tool_integration,memory_model,multi_agent_primitives,human_in_the_loop,observability,guardrails,deployment_mode,maturity_estimate,notes
+autogen,Microsoft Research,Python,MIT,conversation-graph,native-tool-calling+mcp,conversation-only,messaging+hierarchy+roles,approvals,tracing+token-usage,rate-limits+turn-caps,library,production-grade,Multi-agent conversation programming
+langchain-langgraph,LangChain,Python+TypeScript,MIT,state-machine,native-tool-calling+mcp,persistent-state,messaging+hierarchy,none,tracing+token-usage,rate-limits,library,production-grade,LangGraph adds explicit graph orchestration to LangChain
+crewai,CrewAI,Python,MIT,role-based,native-tool-calling,conversation-only,roles+hierarchy,none,logging,turn-caps,library,stable,Role-based agent crews
+pydantic-ai,Pydantic,Python,MIT,turn-based,native-tool-calling,conversation-only,none,none,tracing+token-usage,rate-limits,library,stable,Pydantic-typed agents
+openai-agents-sdk,OpenAI,Python,MIT,turn-based,native-tool-calling+mcp,conversation-only,handoffs,none,tracing+token-usage,turn-caps,library,stable,OpenAI's agent SDK with tracing and guardrails
+smolagents,Hugging Face,Python,Apache-2.0,turn-based,native-tool-calling,conversation-only,none,none,logging,none,library,experimental,Lightweight code-first agents
+aider,Aider,Python,Apache-2.0,turn-based,plugin-api,conversation-only,none,none,logging,none,cli,stable,AI pair programming in terminal
+codex-cli,OpenAI,TypeScript,MIT,turn-based,plugin-api,conversation-only,none,approvals,logging,none,cli,stable,OpenAI coding agent CLI
+claude-code,Anthropic,TypeScript,proprietary,turn-based,plugin-api,conversation-only,none,approvals,logging,none,cli,stable,Anthropic's agentic coding CLI
+goose,Block,TypeScript+Rust,Apache-2.0,turn-based,plugin-api,conversation-only,none,approvals,logging,none,cli,stable,General-purpose extensible agent
+dagger-agents,Dagger,Go+Python,Apache-2.0,dag,native-tool-calling,conversation-only,none,none,tracing+logging,none,library,experimental,Agents as programmable pipelines
+prefect-agents,Prefect,Python,Apache-2.0,dag,native-tool-calling,persistent-state,none,none,tracing+logging,none,library,stable,Workflow-native agent orchestration
+camunda-ai-agent,Camunda,Java,Apache-2.0,state-machine,native-tool-calling,persistent-state,hierarchy,none,tracing+logging,rate-limits,library,stable,BPMN-driven agent orchestration
+temporal-agents,Temporal,TypeScript+Python,MIT,state-machine,plugin-api,persistent-state,none,none,tracing+logging,rate-limits,library,stable,Durable execution for agents
+swe-bench-harness,SWE-bench,Python,MIT,eval-harness,plugin-api,none,none,none,logging,sandboxing,container,stable,Evaluation harness for coding agents
+inspect-ai,UK AISI,Python,MIT,eval-harness,plugin-api,conversation-only,none,none,tracing+token-usage,sandboxing,library,stable,Structured LLM evaluation framework
