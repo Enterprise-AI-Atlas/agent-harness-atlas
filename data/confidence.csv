@@ -71,3 +71,4 @@ gaia-harness,medium,docs+announcements,Initial seed; verify against current docs
 webarena-harness,medium,docs+announcements,Initial seed; verify against current docs
 osworld-harness,medium,docs+announcements,Initial seed; verify against current docs
 toolbench-harness,medium,docs+announcements,Initial seed; verify against current docs
+langchain-deep-agents,medium,docs+announcements,NVIDIA blog post and LangChain docs reviewed; no code inspected
