@@ -72,3 +72,4 @@ webarena-harness,WebArena,Python,MIT,eval-harness,plugin-api,none,none,none,logg
 osworld-harness,OSWorld,Python,Apache-2.0,eval-harness,plugin-api,none,none,none,logging,sandboxing,container,stable,OS-level agent benchmark harness
 toolbench-harness,ToolBench,Python,Apache-2.0,eval-harness,plugin-api,none,none,none,logging,sandboxing,container,stable,Tool-learning benchmark harness
 langchain-deep-agents,LangChain,Python,MIT,turn-based,native-tool-calling+mcp,conversation-only,none,none,tracing+token-usage,rate-limits+turn-caps,library,stable,LangChain Deep Agents harness with per-model harness profiles for adapting agent behavior without fine-tuning; featured in NVIDIA Nemotron 3 Ultra tuning tutorial
+albion,AmbitiousRealism2025,bash+python,MIT,turn-based,plugin-api,persistent-state,none,approvals,cost-tracking+logging,none,cli,experimental,Discipline layer for Claude Code running GLM-5.2; always-on charter with workbench enforcement and real-cost telemetry

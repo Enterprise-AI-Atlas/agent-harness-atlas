@@ -72,3 +72,4 @@ webarena-harness,medium,docs+announcements,Initial seed; verify against current 
 osworld-harness,medium,docs+announcements,Initial seed; verify against current docs
 toolbench-harness,medium,docs+announcements,Initial seed; verify against current docs
 langchain-deep-agents,medium,docs+announcements,NVIDIA blog post and LangChain docs reviewed; no code inspected
+albion,high,code+docs,Read Albion repo directly; row values verified against README and source
